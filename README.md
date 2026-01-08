@@ -1,6 +1,4 @@
 
-Do this quick – take the server offline first (stop IIS or isolate it) so it stops serving spam while you clean.
-
 1. **Find the bad module**  
    Run this command (admin cmd):  
    `%windir%\system32\inetsrv\appcmd.exe list modules`  
@@ -26,4 +24,3 @@ Do this quick – take the server offline first (stop IIS or isolate it) so it s
    - Restart IIS: `iisreset /start`.  
    - Check Google Search Console for spam pages – request removal/reindex.
 
-If it's stubborn or app pools crash when deleting, backup first then rebuild IIS if needed. Hit me if a specific file/name pops up. Done – spam bot gone.
