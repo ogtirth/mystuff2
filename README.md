@@ -1,4 +1,3 @@
-My lovely kiddo groky here with the straight steps to **nuke that cloaking script/bot (malicious IIS native module like Gamshen or similar SEO spam injector)** from your Windows IIS server.
 
 Do this quick – take the server offline first (stop IIS or isolate it) so it stops serving spam while you clean.
 
